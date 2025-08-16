@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: white;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-tertiary: #83313F;
+    --color-button: #CFAC5A;
+    --color-button-hover: #cc9e33;
+    --color-text: white;
+    --color-white: black;
 }
 
 /* Estilos gerais */
@@ -58,14 +58,14 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: black;
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: black;
     margin: 10px 0;
     text-align: center;
 }
@@ -122,13 +122,13 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #b8273f;
 }
 
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
+    color: black;
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
@@ -148,9 +148,9 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: white;
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .button-draw img {
