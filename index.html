@@ -17,7 +17,7 @@
     <main class="main-content">
         <header class="header-banner">
             <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+            <img class="edward" src="./assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
         </header>
 
         <section class="input-section">
@@ -26,6 +26,7 @@
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
                 <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
             </div>
+            <h2 class="warning"></h2>
 
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
@@ -37,6 +38,15 @@
                 </button>
             </div>
         </section>
+
+        <footer>
+            <section class="icons-footer">
+            <a href="https://www.instagram.com/luk4s_gom3s"><img src="./assets/instagram.png" class="icon"></a>
+            <a href="https://github.com/LukasGom3s"><img src="./assets/github.png" class="icon"></a>
+            <a href="https://www.linkedin.com/in/lucasgomesesteves"><img src="./assets/linkedin.png" class="icon"></a>
+            </section>
+            <h3>Desenvolvido por LukasGom3s</h3>
+        </footer>
     </main>
 
     <script src="app.js" defer></script>
