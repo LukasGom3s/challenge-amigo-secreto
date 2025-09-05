@@ -1,17 +1,22 @@
 let amigos = [];
 
 function listarNomes() {
+    let subtitulo = document.querySelector(".subtitle-list");
     let lista = document.getElementById('listaAmigos');
     lista.innerHTML = "";
     for (i = 0; i < amigos.length; i++) {
         lista.innerHTML += `<li>${amigos[i]}<button class="remove-button" onclick="removerAmigo(${i})">-</button></li>`;
     }
-
+    if (amigos.length > 0) {
+        subtitulo.innerHTML = "Amigos adicionados:";
+    } else {
+        subtitulo.innerHTML = "";
+    }
 }
 
 function adicionarAmigo() {
     let warn = document.querySelector(".warning");
-    warn.innerHTML="";
+    warn.innerHTML = "";
     let amigo = document.getElementById('amigo');
     let nome = amigo.value;
     if (nome != "") {
