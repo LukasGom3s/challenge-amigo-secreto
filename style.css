@@ -247,6 +247,7 @@ footer {
         flex-direction: column;
         margin:0;
         padding: 0;
+        height: 20%;
     }
     .section-title{
         font-size: 2.2rem;
